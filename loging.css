@@ -1,0 +1,76 @@
+body{
+	margin: 0px;
+	padding: 0ps;
+	background-image: url(http://gdurl.com/5XTi);
+	background-size: cover;
+	font-family: sans-serif;
+
+}
+.logbox{
+	width: 320px;
+	height: 450px;
+	background-color: black;
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: 0.8;
+}
+.avatar2{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -10%;
+	left: 34%
+}
+h1{
+	margin: 0px;
+	padding: 0px 0px 20px;
+	font-size: 24px;
+	text-align: center;
+}
+.logbox p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+.logbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.logbox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+}
+.logbox input[type="submit"]{
+	border: none;
+	background: green;
+	color: white;
+	font-size: 18px;
+	height: 40px;
+	border-radius: 20px;
+}
+.logbox input[type="submit"]:hover{
+	color: black;
+	background-color: lightgreen;
+	cursor: pointer;
+}
+.logbox a{
+	color: darkgray;
+	font-size: 18px;
+	line-height: 20px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.logbox a:hover{
+	color: lightgray;
+}
